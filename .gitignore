@@ -404,3 +404,16 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Xcode & iOS build files
+RealityCheck.iOS/DerivedData/
+RealityCheck.iOS/build/
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# SwiftPM cache
+.build/
+.swiftpm/xcode/package.xcworkspace/
+
