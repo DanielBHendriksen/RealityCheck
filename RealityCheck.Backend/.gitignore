@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and local databases
+*.log
+*.sqlite3
+
+# macOS system files
+.DS_Store
+
+# VSCode settings (optional)
+.vscode/
+
+# USDZ models and other generated assets
+static/usdz/
+
+# Ignore dynamically created job folders
+jobs/
+
+# Ignore test/demo assets used during development
+demo_images/
+demo_models/
+# macOS system files
+.DS_Store
+
+
+# Python backend build artifacts
+RealityCheck.Backend/.venv/
+RealityCheck.Backend/__pycache__/
+RealityCheck.Backend/static/usdz/
+RealityCheck.Backend/jobs/
+RealityCheck.Backend/demo_*/
+

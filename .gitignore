@@ -417,3 +417,5 @@ RealityCheck.iOS/build/
 .build/
 .swiftpm/xcode/package.xcworkspace/
 
+# macOS Finder
+.DS_Store
